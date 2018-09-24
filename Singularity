@@ -40,4 +40,7 @@ From: ubuntu:18.04
     apt -y update
     apt -y install libnvinfer4=4.1.2-1+cuda9.0
 
+%runscript
+	python3 /tensorflow_demo.py
+
 
