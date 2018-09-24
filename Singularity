@@ -21,7 +21,7 @@ From: ubuntu:18.04
     apt -y install python3
     apt -y install python3-pip
     
-    pip3 install tensorflow-gpu
+
     
     # Add NVIDIA package repository
     apt-key adv --fetch-keys http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/7fa2af80.pub
@@ -39,6 +39,8 @@ From: ubuntu:18.04
     # Optional: Install the TensorRT runtime (must be after CUDA install)
     apt -y update
     apt -y install libnvinfer4=4.1.2-1+cuda9.0
+
+    pip3 install tensorflow-gpu
 
 %runscript
 	python3 /tensorflow_demo.py
