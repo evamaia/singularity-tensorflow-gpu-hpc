@@ -16,8 +16,12 @@ From: ubuntu:18.04
     apt -y install gnupg1
     apt -y install gnupg2
 
+
+
     apt -y install python3
-  
+    apt -y install python3-pip
+    
+    pip3 install tensorflow-gpu
     
     # Add NVIDIA package repository
     apt-key adv --fetch-keys http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/7fa2af80.pub
