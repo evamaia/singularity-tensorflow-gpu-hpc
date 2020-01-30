@@ -41,7 +41,10 @@ From: ubuntu:18.04
     apt -y install libnvinfer4=4.1.2-1+cuda9.0
 
     pip3 install tensorflow-gpu
-    pip3 install pandas, matplotlib, numpy, keras
+    pip3 install pandas
+    pip3 install matplotlib
+    pip3 install numpy
+    pip3 install keras
 
 %runscript
 	python3 /tensorflow_demo.py
