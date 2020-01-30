@@ -46,7 +46,4 @@ From: ubuntu:18.04
     pip3 install numpy
     pip3 install keras
 
-%runscript
-	python3 /tensorflow_demo.py
-
 
